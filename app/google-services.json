@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43874108323",
+    "project_id": "edrobe-d819b",
+    "storage_bucket": "edrobe-d819b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43874108323:android:a15dcd65519bda908e5016",
+        "android_client_info": {
+          "package_name": "com.example.edrobe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43874108323-f8htsgah2aef0dctj6e2f3nohrfdk5fd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd6FEn_IbOWTBgiUoHpri_96Ttr4h89Ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43874108323-f8htsgah2aef0dctj6e2f3nohrfdk5fd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

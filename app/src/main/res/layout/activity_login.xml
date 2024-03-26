@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/email"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:id="@+id/userEmail"
+        android:drawableStart="@drawable/username"
+        android:drawablePadding="20dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:hint="@string/password"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:id="@+id/userPass"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="20dp">
+    </EditText>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:id="@+id/loginBtn"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:text="@string/sign_in"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black">
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/not_hv_acc"
+        android:backgroundTint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="610dp"
+        android:text="@string/don_t_have_an_account"
+        android:textSize="15sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/createAccButton"
+        android:backgroundTint="@color/white"
+        android:layout_toEndOf="@+id/not_hv_acc"
+        android:textColor="@color/black"
+        android:layout_marginTop="610dp"
+        android:paddingStart="10dp"
+        android:text="@string/sign_up"
+        android:fontFamily="sans-serif-black"
+        android:textSize="15sp">
+    </TextView>
+</RelativeLayout>

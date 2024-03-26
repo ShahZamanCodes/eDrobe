@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_bg"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:id="@+id/backButton"
+        android:drawableStart="@drawable/arrow_back"
+        android:paddingLeft="15dp"
+        >
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/signup"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/full_name"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:id="@+id/signupFullName"
+        android:drawableStart="@drawable/account"
+        android:drawablePadding="20dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/signupEmail"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:id="@+id/signupEmail"
+        android:drawableStart="@drawable/username"
+        android:drawablePadding="20dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/signUpPassword"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:id="@+id/signupPassword"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="20dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="440dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/SignPhone"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:id="@+id/signupPhoneNo"
+        android:drawableStart="@drawable/local_phone"
+        android:drawablePadding="20dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="520dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/address"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:id="@+id/signupAddress"
+        android:drawableStart="@drawable/location_on"
+        android:drawablePadding="20dp">
+    </EditText>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:id="@+id/signupButton"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:text="@string/sign_Up"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black">
+    </Button>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alreadyHvAcc"
+        android:backgroundTint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="680dp"
+        android:text="@string/already_have_an_account"
+        android:textSize="15sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton"
+        android:backgroundTint="@color/white"
+        android:layout_toEndOf="@+id/alreadyHvAcc"
+        android:textColor="@color/black"
+        android:layout_marginTop="680dp"
+        android:paddingStart="10dp"
+        android:text="@string/log_in"
+        android:fontFamily="sans-serif-black"
+        android:textSize="15sp">
+    </TextView>
+
+
+
+
+</RelativeLayout>
